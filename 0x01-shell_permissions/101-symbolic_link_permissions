@@ -1,2 +1,2 @@
 #!/bin/bash
-chown vincent:staff _hello
+chown -h vincent:staff /alx-software_engineering/0x01-shell_permissions
