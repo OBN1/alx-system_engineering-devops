@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -h vincent:staff "$(realpath  _hello)"
+chown vincent:staff _hello
