@@ -1,2 +1,2 @@
 #!/bin/bash
-cp ./copy_HTML_files.sh
+. ../copy_HTML_files.sh
