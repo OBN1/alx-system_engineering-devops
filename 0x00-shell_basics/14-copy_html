@@ -1,2 +1,2 @@
 #!/bin/bash
-./copy_html_files.sh
+./copy_0x00-shell_basics.sh
