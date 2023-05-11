@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l ./copy_html_files.sh
+./copy_html_files.sh
