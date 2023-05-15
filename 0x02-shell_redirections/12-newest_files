@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -type f -printf "%T@ %p\n" | sort -nr | awk '{print $2}' | head -n 10
+ls -lt -r --time=atime --time-style=+"%Y-%m-%d %H:%M:%S" | grep "^-" | head -n 10 | awk '{print $6, $7}'
