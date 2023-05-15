@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt -r --time=atime --time-style=+"%Y-%m-%d %H:%M:%S" | grep "^-" | head -n 10 | awk '{print $6, $7}'
+ls -lt | grep "^-" | head -n 10 | tr -s ' ' | cut -d' ' -f9
