@@ -1,2 +1,2 @@
 #!/bin/bash
-cleaned_string=$(tr -d 'cC' <<< "$1")
+echo cleaned_string=$(tr -d 'cC' <<< "$1")
