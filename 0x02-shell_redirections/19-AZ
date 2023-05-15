@@ -1,0 +1,3 @@
+#!/bin/bash
+input="This is a test string with some characters."
+modified=$(echo "$input" | tr 'Ac' 'Ze'); echo "$modified"
