@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(bc <<< "scale=2 | $BREATH^$LOVE") 2> /dev/null | cat
+echo $(python -c "print($BREATH**$LOVE)")
