@@ -1,2 +1,3 @@
-: #!/bin/bash
-ls -Ap | awk 'BEGIN{ORS=","} {print $0} END{print "\n"}' 
+#!/bin/bash
+ls -Ap1 | sed ':a;N;$!ba;s/\n/, /g'
+
