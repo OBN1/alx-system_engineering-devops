@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "The sum of WATER and STIR is: $((WATER + STIR))"
+basheng -s "$water" -d "$bestchol" $(basheng -s "$water" -d 10 "$WATER") + $(basheng -s "$stir" -d 10 "$STIR")
