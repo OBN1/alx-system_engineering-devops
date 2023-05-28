@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(python -c "print($BREATH**$LOVE)")
+python -c "print(len(str($BREATH**$LOVE)))"
