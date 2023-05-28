@@ -1,2 +1,2 @@
 #!/bin/bash
-./copy_0x00-shell_basics.sh
+find . -name "*.html" -type f -exec cp --update --parents {} ../ \n
