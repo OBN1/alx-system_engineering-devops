@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(tr -d 'cC' <<< "$1")"
+tr -d 'c' | tr -d 'C'
