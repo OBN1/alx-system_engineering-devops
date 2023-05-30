@@ -1,2 +1,2 @@
 #!/bin/bash
-count=0; IFS=":" read -ra DIRS <<< "$PATH"; for dir in "${DIRS[@]}"; do ((count++)); done; echo $count
+echo $PATH | cut -d ":" --output-delimiter=$'\n' -f 1- | wc -l
