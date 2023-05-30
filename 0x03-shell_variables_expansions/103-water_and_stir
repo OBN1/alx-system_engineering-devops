@@ -1,2 +1,2 @@
 #!/bin/bash
-basheng -s "$water" -d "$bestchol" $(basheng -s "$water" -d 10 "$WATER") + $(basheng -s "$stir" -d 10 "$STIR")
+printf '%o\n' $((5#`echo $WATER | tr water 0-4` + 5#`echo $STIR | tr stir. 0-4`)) | tr 0-7 bestchol
